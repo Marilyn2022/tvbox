@@ -1,7 +1,7 @@
 {
 "spider":"./jar/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
-"lives":[{"name":"初秋语•ipv4","type":0,"url":"./list.txt","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"}
+"lives":[{"name":"自用TV","type":0,"url":"./bc.txt","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"}
 ],
 "wallpaper":"https://深色壁纸.xxooo.cf/",
 "sites":[
