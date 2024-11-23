@@ -46,7 +46,7 @@
 {"key":"drpy_js_我的哔哩","name":"🦉┃我的哔哩[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/我的哔哩.js"},
 {"key":"drpy_js_哔哩直播","name":"🎳┃哔哩直播[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩直播.js"},
 {"key":"drpy_js_斗鱼直播","name":"🥏┃斗鱼[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.755}, "playerType": "2","searchable": 0,"quickSearch": 0,"changeable":0,"ext": "https://notabug.org/fantaiying/ext/raw/main/斗鱼直播.js"},
-{"key":"drpy_js_虎牙直播","name":"🍍┃虎牙[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.755}, "playerType": "2", "searchable": 0,"quickSearch": 0,"changeable":0,"ext": "https://notabug.org/fantaiying/ext/raw/main/huya2.js"},
+{"key":"drpy_js_虎牙直播","name":"🍍┃虎牙[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.755}, "playerType": "2", "searchable": 0,"quickSearch": 0,"changeable":0,"ext": "https://notabug.org/fantaiying/ext/raw/main/huya.js"},
 {"key":"drpy_js_童趣","name":"🚌少儿┃童趣[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/童趣.js"},
 {"key":"drpy_js_兔小贝","name":"⚜️少儿┃兔小贝[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/兔小贝.js"},
 {"key":"drpy_js_i275听书","name":"⛳听书┃i275听书[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/i275听书.js"},
