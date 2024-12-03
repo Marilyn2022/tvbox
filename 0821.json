@@ -1,7 +1,7 @@
 {
 "spider":"./jar/fan.txt;md5;99b6c138ce197b9cd89ccf9dc26a37bc",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
-"lives":[{"name":"自用TV","type":0,"url":"./bc.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"}
+"lives":[{"name":"自用TV","type":0,"url":"./bc.m3u8","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"}
 ],
 "wallpaper":"https://深色壁纸.xxooo.cf/",
 "sites":[
