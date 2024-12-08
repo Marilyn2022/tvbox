@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;c5e4af339c38ebe176959cbb1e1c0bbc",
+"spider":"./jar/fan.txt;md5;f115051a7d789c2baebb9309c14bddd2",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[{"name":"自用TV","type":0,"url":"./bc.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"}
 ],
