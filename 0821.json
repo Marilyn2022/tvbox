@@ -22,6 +22,7 @@
 "wallpaper":"https://深色壁纸.xxooo.cf/",
 "sites":[
 {"key":"豆豆","name":"🎃豆瓣┃搜索","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
+ {"key":"荐片","name":"🏆荐片｜磁力｜蓝光","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://175.178.251.183:6689/lib/jianpian.json","jar":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5"},   
 {"key":"drpy_js_荐片","name":"🏆荐片[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/荐片.js", "searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key":"drpy_js_360影视","name":"🥇官源┃360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
 {"key":"drpy_js_奇珍异兽","name":"🦚官源┃爱奇艺[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
@@ -38,7 +39,7 @@
 {"key":"热播","name":"🍬热播｜有广｜蓝光","type":3,"api":"csp_AppRB","playerType":1,"searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5"},
 {"key":"苹果","name":"🥠苹果｜影视｜蓝光","type":3,"api":"csp_Xpg","searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5"},
 {"key":"凡人","name":"🏺凡人｜影视｜蓝光","type":3,"api":"csp_Frong","searchable":1,"changeable":1,"ext":"FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjgxMzN8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=","jar":"./jar/qj.jar;md5;68959ABC51DBFCBA14FB08D537DBF230"},
-{"key":"雷达","name":"🦐雷达｜影视｜蓝光","type":3,"api":"csp_Slys","searchable":1,"changeable":1,"ext":"caHR0cDovLzEyMC4yMjQuNy45MDo4MDg=","jar":"./jar/qj.jar;md5;AB2B0DDAD5E1F7FA6BD2B295EEA6D0D5"},
+{"key":"雷达","name":"🦐雷达｜影视｜蓝光","type":3,"api":"csp_Slys","searchable":1,"changeable":1,"ext":"caHR0cDovLzEyMC4yMjQuNy45MDo4MDg=","jar":"http://175.178.251.183:6689/jar/qj.jar;md5;AB2B0DDAD5E1F7FA6BD2B295EEA6D0D5"},
 
 {"key":"926看球","name":"🏀926┃看球","type":3,"api":"csp_kanqiu926","searchable":0,"changeable":0,"style":{"type":"list"}},
 {"key":"88js","name":" 🥇88┃看球","type":3,"api":"https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js","ext":"https://notabug.org/fantaiying/ext/raw/main/88看球.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
