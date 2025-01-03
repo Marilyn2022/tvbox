@@ -2,15 +2,8 @@
 "spider":"./jar/fan.txt;md5;f98827d83bb8ca104b0b1ead61a98c5b",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[{"name":"iptv","type":0,"url":"https://live.kilvn.com/iptv.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-         {"name":"稳定TV","type":0,"url":"./bc.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-        {
-            "name": "肥羊国内直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "tv.m3u",
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/allinone;md5;https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/md5",
-            "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
-        },
+        {"name":"ipv4直播","type":0,"url":"https://raw.githubusercontent.com/huang770101/my-iptv/refs/heads/main/IPTV-ipv4.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
+   {"name":"16万•MV","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"},    
           {
       "name": "直播live",
       "type": 0,
