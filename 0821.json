@@ -2,7 +2,6 @@
 "spider":"./jar/fan.txt;md5;f98827d83bb8ca104b0b1ead61a98c5b",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[{"name":"iptv","type":0,"url":"https://live.kilvn.com/iptv.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-        {"name":"ipv4直播","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/huang770101/my-iptv/refs/heads/main/IPTV-ipv4.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
      {"name":"范明明ipv6","type":0,"url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
    {"name":"16万•MV","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"},    
           {
@@ -11,7 +10,8 @@
       "url": "https://gcore.jsdelivr.net/gh/yuanzl77/IPTV@latest/live.m3u",
       "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
                    "logo": "https://live.fanmingming.com/tv/{name}.png"
-    }
+    },
+  {"name":"ipv4直播","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/huang770101/my-iptv/refs/heads/main/IPTV-ipv4.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"}
 ],
 "wallpaper": "https://bing.img.run/uhd.php",
 "sites":[
