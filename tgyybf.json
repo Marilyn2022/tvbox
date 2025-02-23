@@ -34,11 +34,6 @@
           "isLocal": false,
           "transformJs": null
         },
-        {"name":"itv",
-          "url":"https://tv.203511.xyz/itv.m3u",
-          "isLocal":false,
-          "transformJs":null
-        },
 {
   "name": "latest（地方·流畅）",
   "url": "http://117.72.68.25:9230/latest.txt",
