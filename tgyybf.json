@@ -1,5 +1,5 @@
 {
-  "version": "V6.0",
+  "version": "V7.0",
   "syncAt": 1735473496607,
   "syncFrom": "神器每日推送的设备",
   "description": null,
@@ -34,6 +34,13 @@
           "isLocal": false,
           "transformJs": null
         },
+          {
+          "name": "IPTV·gaoma",
+          "url": "https://wget.la/https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/IPTV-V4.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+
 {
   "name": "latest（地方·流畅）",
   "url": "http://117.72.68.25:9230/latest.txt",
