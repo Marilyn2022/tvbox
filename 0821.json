@@ -1,5 +1,5 @@
 {
-"spider":"./jar/custom_spider.jar;md5;98e25197fce4b874343de7d40011de1d",
+"spider":"./jar/custom_spider.jar;md5;5e53c8f9ddd4ede5359c16bee091db93",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[
        {"name":"alive","type":0,"url":"https://wget.la/https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
