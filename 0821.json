@@ -3,6 +3,18 @@
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[
        {"name":"alive","type":0,"url":"https://wget.la/https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
+       {
+				"name": "最强国内直播(合并版)",
+				"type": 0,
+				"url": "file://pg/bin/all.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "https://live.fanmingming.com/tv/{name}.png",
+				"catchup": {
+					"type": "append",
+					"source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+				}
+			},
         {"name":"IPTV·gaoma","type":0,"url":"https://wget.la/https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/IPTV-V4.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
           {"name":"CCTV·gaoma","type":0,"url":"https://wget.la/https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/CCTV-V4.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
         {"name":"kakaxi-1","type":0,"url":"https://wget.la/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
