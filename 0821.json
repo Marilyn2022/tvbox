@@ -13,7 +13,8 @@
 				"catchup": {
 					"type": "append",
 					"source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-				}
+				},
+	     "jar":"./pg.jar;md5;ae76888f4a149967d92d75158f01294f"
 			},
         {"name":"IPTV·gaoma","type":0,"url":"https://wget.la/https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/IPTV-V4.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
           {"name":"CCTV·gaoma","type":0,"url":"https://wget.la/https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/CCTV-V4.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
