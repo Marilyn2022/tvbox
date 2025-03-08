@@ -30,14 +30,14 @@
         },
         {
           "name": "咪咕直播·流畅",
-          "url": "https://wget.la/https://raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u",
+          "url": "https://gh.tryxd.cn/raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u",
           "isLocal": false,
           "transformJs": null
         },
 
  {
           "name": "小雅·gaoma",
-          "url": "https://wget.la/https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u",
+          "url": "https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u",
           "isLocal": false,
           "transformJs": null
         },
