@@ -1,5 +1,5 @@
 {
-  "version": "V7.0",
+  "version": "V8.0",
   "syncAt": 1735473496607,
   "syncFrom": "神器每日推送的设备",
   "description": null,
@@ -34,6 +34,22 @@
           "isLocal": false,
           "transformJs": null
         },
+
+ {
+          "name": "小雅·gaoma",
+          "url": "https://wget.la/https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+
+
+         {
+          "name": "小雅·ipv6",
+          "url": "https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+        
           {
           "name": "IPTV·gaoma",
           "url": "https://wget.la/https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/IPTV-V4.m3u",
