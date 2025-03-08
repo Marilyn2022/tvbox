@@ -1,5 +1,5 @@
 {
-  "version": "V8.0",
+  "version": "V9.0",
   "syncAt": 1735473496607,
   "syncFrom": "神器每日推送的设备",
   "description": null,
@@ -14,12 +14,14 @@
     "debugShowVideoPlayerMetadata": false,
     "debugShowLayoutGrids": false,
     "iptvSourceCacheTime": 0,
-    "iptvSourceCurrent": {
-      "name": "肥羊TV（默认）",
-      "url": "http://127.0.0.1:35455/tv.m3u?url=http://127.0.0.1:35455",
-      "isLocal": false,
-      "transformJs": "function transformGroupNames(channelList, mapping) {\n    return channelList.map(function (channel) {\n        var newGroupName = mapping[channel.groupName] || channel.groupName;\n        return Object.assign({}, channel, { groupName: newGroupName });\n    });\n}\n\nfunction sortChannelsByGroupName(channelList, sort) {\n    return channelList.map(function (channel, index) {\n            return { channel: channel, originalIndex: index };\n        }).sort(function (a, b) {\n            var indexA = sort.indexOf(a.channel.groupName);\n            var indexB = sort.indexOf(b.channel.groupName);\n            indexA = indexA === -1 ? sort.length : indexA;\n            indexB = indexB === -1 ? sort.length : indexB;\n            return indexA - indexB || a.originalIndex - b.originalIndex;\n        }).map(function (item) {\n            return item.channel;\n        });\n}\n\nfunction transformChannelList(channelList, func) {\n    return channelList.map(function (channel) {\n        var transformedChannel = func(channel);\n        return Object.assign({}, channel, transformedChannel);\n    });\n}\n\nfunction filterOutChannels(channelList, filterOutChannelNameList) {\n    return channelList.filter(function (channel) {\n        return !filterOutChannelNameList.includes(channel.name);\n    });\n}\n\nfunction main(channelList) {\n    var groupNameMapping = {\n        '北京': '卫视',\n        '安徽': '卫视',\n        '甘肃': '卫视',\n        '广东': '卫视',\n        '贵州': '卫视',\n        '海南': '卫视',\n        '河北': '卫视',\n        '河南': '卫视',\n        '黑龙江': '卫视',\n        '湖北': '卫视',\n        '湖南': '卫视',\n        '吉林': '卫视',\n        '江苏': '卫视',\n        '江西': '卫视',\n        '辽宁': '卫视',\n        '青海': '卫视',\n        '山东': '卫视',\n        '上海': '卫视',\n        '四川': '卫视',\n        '云南': '卫视',\n        '浙江': '卫视',\n        '重庆': '卫视',\n        '香港': '卫视',\n        '4K频道': '央视',\n        '8K频道': '央视'\n    };\n    var groupNameSort = ['央视', '卫视', '4K 8K', 'NEWTV', 'IHOT', '咪咕体育', '其他'];\n    var filterOutChannelNameList = [\"4K60PSDR-H264-AAC测试\", \"4K60PHLG-HEVC-EAC3测试\", \"北京纪实科教8K\", \"重温经典\", \"Love Nature 4K\", \"Loupe 4K\", \"Fashion 4K\"];\n    var unwantedGroupNames = [\"列表更新时间\"];\n\n    function transformChannel(channel) {}\n\n    channelList = channelList.filter(function (channel) {\n        return unwantedGroupNames.indexOf(channel.groupName) === -1 && (!channel.url || channel.url.indexOf('/itv/') === -1);\n    });\n\n    return sortChannelsByGroupName(transformGroupNames(transformChannelList(filterOutChannels(channelList, filterOutChannelNameList), transformChannel), groupNameMapping), groupNameSort);\n}"
-    },
+    "iptvSourceCurrent":
+ {
+          "name": "小雅·ipv6（默认）",
+          "url": "https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+
     "iptvSourceList": {
       "value": [ 
          {
@@ -35,17 +37,23 @@
           "transformJs": null
         },
 
- {
-          "name": "小雅·gaoma",
-          "url": "https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u",
-          "isLocal": false,
-          "transformJs": null
-        },
-
+        {
+  "name": "latest（地方·流畅）",
+  "url": "http://117.72.68.25:9230/latest.txt",
+  "isLocal": false,
+  "transformJs": "function transformGroupNames(channelList, mapping) {\n    return channelList.map(function (channel) {\n        var newGroupName = mapping[channel.groupName] || channel.groupName;\n        return Object.assign({}, channel, { groupName: newGroupName });\n    });\n}\n\nfunction sortChannelsByGroupName(channelList, sort) {\n    return channelList.map(function (channel, index) {\n            return { channel: channel, originalIndex: index };\n        }).sort(function (a, b) {\n            var indexA = sort.indexOf(a.channel.groupName);\n            var indexB = sort.indexOf(b.channel.groupName);\n            indexA = indexA === -1 ? sort.length : indexA;\n            indexB = indexB === -1 ? sort.length : indexB;\n            return indexA - indexB || a.originalIndex - b.originalIndex;\n        }).map(function (item) {\n            return item.channel;\n        });\n}\n\nfunction transformChannelList(channelList, func) {\n    return channelList.map(function (channel) {\n        var transformedChannel = func(channel);\n        return Object.assign({}, channel, transformedChannel);\n    });\n}\n\nfunction filterOutChannels(channelList, filterOutChannelNameList) {\n    return channelList.filter(function (channel) {\n        return !filterOutChannelNameList.includes(channel.name);\n    });\n}\n\nfunction main(channelList) {\n    var groupNameMapping = {\n        '北京': '卫视',\n        '安徽': '卫视',\n        '甘肃': '卫视',\n        '广东': '卫视',\n        '贵州': '卫视',\n        '海南': '卫视',\n        '河北': '卫视',\n        '河南': '卫视',\n        '黑龙江': '卫视',\n        '湖北': '卫视',\n        '湖南': '卫视',\n        '吉林': '卫视',\n        '江苏': '卫视',\n        '江西': '卫视',\n        '辽宁': '卫视',\n        '青海': '卫视',\n        '山东': '卫视',\n        '上海': '卫视',\n        '四川': '卫视',\n        '云南': '卫视',\n        '浙江': '卫视',\n        '重庆': '卫视',\n        '香港': '卫视',\n        '4K频道': '央视',\n        '8K频道': '央视'\n    };\n    var groupNameSort = ['央视', '卫视', '4K 8K', 'NEWTV', 'IHOT', '咪咕体育', '其他'];\n    var filterOutChannelNameList = [\"4K60PSDR-H264-AAC测试\", \"4K60PHLG-HEVC-EAC3测试\", \"北京纪实科教8K\", \"重温经典\", \"Love Nature 4K\", \"Loupe 4K\", \"Fashion 4K\"];\n    var unwantedGroupNames = [\"列表更新时间\", \"👉易看电视\", \"央卫\", \"辽宁\", \"🦌江苏移动IPV6\", \"测试\", \"加密节目_10086\"];\n\n    function transformChannel(channel) {}\n\n    channelList = channelList.filter(function (channel) {\n        // 过滤指定分组 + 直播通用线路的CCTV1 + /itv/链接\n        return unwantedGroupNames.indexOf(channel.groupName) === -1 \n            && (!channel.url || channel.url.indexOf('/itv/') === -1)\n            && !(channel.groupName === '📽直播通用线路' && channel.name === 'CCTV1');\n    });\n\n    return sortChannelsByGroupName(transformGroupNames(transformChannelList(filterOutChannels(channelList, filterOutChannelNameList), transformChannel), groupNameMapping), groupNameSort);\n}"
+},
 
          {
           "name": "小雅·ipv6",
           "url": "https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+
+         {
+          "name": "小雅·gaoma",
+          "url": "https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u",
           "isLocal": false,
           "transformJs": null
         },
@@ -62,12 +70,7 @@
           "isLocal": false,
           "transformJs": null
         },
-{
-  "name": "latest（地方·流畅）",
-  "url": "http://117.72.68.25:9230/latest.txt",
-  "isLocal": false,
-  "transformJs": "function transformGroupNames(channelList, mapping) {\n    return channelList.map(function (channel) {\n        var newGroupName = mapping[channel.groupName] || channel.groupName;\n        return Object.assign({}, channel, { groupName: newGroupName });\n    });\n}\n\nfunction sortChannelsByGroupName(channelList, sort) {\n    return channelList.map(function (channel, index) {\n            return { channel: channel, originalIndex: index };\n        }).sort(function (a, b) {\n            var indexA = sort.indexOf(a.channel.groupName);\n            var indexB = sort.indexOf(b.channel.groupName);\n            indexA = indexA === -1 ? sort.length : indexA;\n            indexB = indexB === -1 ? sort.length : indexB;\n            return indexA - indexB || a.originalIndex - b.originalIndex;\n        }).map(function (item) {\n            return item.channel;\n        });\n}\n\nfunction transformChannelList(channelList, func) {\n    return channelList.map(function (channel) {\n        var transformedChannel = func(channel);\n        return Object.assign({}, channel, transformedChannel);\n    });\n}\n\nfunction filterOutChannels(channelList, filterOutChannelNameList) {\n    return channelList.filter(function (channel) {\n        return !filterOutChannelNameList.includes(channel.name);\n    });\n}\n\nfunction main(channelList) {\n    var groupNameMapping = {\n        '北京': '卫视',\n        '安徽': '卫视',\n        '甘肃': '卫视',\n        '广东': '卫视',\n        '贵州': '卫视',\n        '海南': '卫视',\n        '河北': '卫视',\n        '河南': '卫视',\n        '黑龙江': '卫视',\n        '湖北': '卫视',\n        '湖南': '卫视',\n        '吉林': '卫视',\n        '江苏': '卫视',\n        '江西': '卫视',\n        '辽宁': '卫视',\n        '青海': '卫视',\n        '山东': '卫视',\n        '上海': '卫视',\n        '四川': '卫视',\n        '云南': '卫视',\n        '浙江': '卫视',\n        '重庆': '卫视',\n        '香港': '卫视',\n        '4K频道': '央视',\n        '8K频道': '央视'\n    };\n    var groupNameSort = ['央视', '卫视', '4K 8K', 'NEWTV', 'IHOT', '咪咕体育', '其他'];\n    var filterOutChannelNameList = [\"4K60PSDR-H264-AAC测试\", \"4K60PHLG-HEVC-EAC3测试\", \"北京纪实科教8K\", \"重温经典\", \"Love Nature 4K\", \"Loupe 4K\", \"Fashion 4K\"];\n    var unwantedGroupNames = [\"列表更新时间\", \"👉易看电视\", \"央卫\", \"辽宁\", \"🦌江苏移动IPV6\", \"测试\", \"加密节目_10086\"];\n\n    function transformChannel(channel) {}\n\n    channelList = channelList.filter(function (channel) {\n        // 过滤指定分组 + 直播通用线路的CCTV1 + /itv/链接\n        return unwantedGroupNames.indexOf(channel.groupName) === -1 \n            && (!channel.url || channel.url.indexOf('/itv/') === -1)\n            && !(channel.groupName === '📽直播通用线路' && channel.name === 'CCTV1');\n    });\n\n    return sortChannelsByGroupName(transformGroupNames(transformChannelList(filterOutChannels(channelList, filterOutChannelNameList), transformChannel), groupNameMapping), groupNameSort);\n}"
-},
+
 {
   "name": "iptv_list(综合·FHD)",
   "url": "https://gh.tryxd.cn/raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt",
