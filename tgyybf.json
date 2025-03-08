@@ -52,13 +52,13 @@
         
           {
           "name": "IPTV·gaoma",
-          "url": "https://wget.la/https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/IPTV-V4.m3u",
+          "url": "https://gh.tryxd.cn/raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/IPTV-V4.m3u",
           "isLocal": false,
           "transformJs": null
         },
   {
           "name": "CCTV·gaoma",
-          "url": "https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/CCTV-V4.m3u",
+          "url": "https://gh.tryxd.cn/raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/CCTV-V4.m3u",
           "isLocal": false,
           "transformJs": null
         },
@@ -70,7 +70,7 @@
 },
 {
   "name": "iptv_list(综合·FHD)",
-  "url": "https://wget.la/https://raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt",
+  "url": "https://gh.tryxd.cn/raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt",
   "isLocal": false,
   "transformJs": "function transformGroupNames(channelList, mapping) {\n    return channelList.map(function (channel) {\n        var newGroupName = mapping[channel.groupName] || channel.groupName;\n        return Object.assign({}, channel, { groupName: newGroupName });\n    });\n}\n\nfunction sortChannelsByGroupName(channelList, sort) {\n    return channelList.map(function (channel, index) {\n            return { channel: channel, originalIndex: index };\n        }).sort(function (a, b) {\n            var indexA = sort.indexOf(a.channel.groupName);\n            var indexB = sort.indexOf(b.channel.groupName);\n            indexA = indexA === -1 ? sort.length : indexA;\n            indexB = indexB === -1 ? sort.length : indexB;\n            return indexA - indexB || a.originalIndex - b.originalIndex;\n        }).map(function (item) {\n            return item.channel;\n        });\n}\n\nfunction transformChannelList(channelList, func) {\n    return channelList.map(function (channel) {\n        var transformedChannel = func(channel);\n        return Object.assign({}, channel, transformedChannel);\n    });\n}\n\nfunction filterOutChannels(channelList, filterOutChannelNameList) {\n    return channelList.filter(function (channel) {\n        return !filterOutChannelNameList.includes(channel.name);\n    });\n}\n\nfunction main(channelList) {\n    var groupNameMapping = {\n        '北京': '卫视',\n        '安徽': '卫视',\n        '甘肃': '卫视',\n        '广东': '卫视',\n        '贵州': '卫视',\n        '海南': '卫视',\n        '河北': '卫视',\n        '河南': '卫视',\n        '黑龙江': '卫视',\n        '湖北': '卫视',\n        '湖南': '卫视',\n        '吉林': '卫视',\n        '江苏': '卫视',\n        '江西': '卫视',\n        '辽宁': '卫视',\n        '青海': '卫视',\n        '山东': '卫视',\n        '上海': '卫视',\n        '四川': '卫视',\n        '云南': '卫视',\n        '浙江': '卫视',\n        '重庆': '卫视',\n        '香港': '卫视',\n        '4K频道': '央视',\n        '8K频道': '央视'\n    };\n    var groupNameSort = ['央视', '卫视', '4K 8K', 'NEWTV', 'IHOT', '咪咕体育', '其他'];\n    var filterOutChannelNameList = [\"4K60PSDR-H264-AAC测试\", \"4K60PHLG-HEVC-EAC3测试\", \"北京纪实科教8K\", \"重温经典\", \"Love Nature 4K\", \"Loupe 4K\", \"Fashion 4K\"];\n    var unwantedGroupNames = [\"更新时间\", \"AKTV\", \"湖南移动\", \"列表更新时间\"]; // 新增过滤分组\n\n    function transformChannel(channel) {}\n\n    channelList = channelList.filter(function (channel) {\n        return unwantedGroupNames.indexOf(channel.groupName) === -1 && (!channel.url || channel.url.indexOf('/itv/') === -1);\n    });\n\n    return sortChannelsByGroupName(\n        transformGroupNames(\n            transformChannelList(\n                filterOutChannels(channelList, filterOutChannelNameList),\n                transformChannel\n            ),\n            groupNameMapping\n        ),\n        groupNameSort\n    );\n}"
 },
@@ -88,7 +88,7 @@
         },
         {
           "name": "IPTV-V4",
-          "url": "https://wget.la/https://raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/IPTV-V4.m3u",
+          "url": "https://gh.tryxd.cn/raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/IPTV-V4.m3u",
           "isLocal": false,
           "transformJs": null
         },
