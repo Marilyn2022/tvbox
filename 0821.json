@@ -7,7 +7,7 @@
         {"name":"alive","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
        {"name":"小雅·gaoma","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u","playerType":2},
    {
-      "name": "快直播(python)",
+      "name": "快直播(影视·python)",
       "type": 3,
       "api": "./kzb.py",
       "ext": {}
