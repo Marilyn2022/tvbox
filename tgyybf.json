@@ -26,6 +26,14 @@
 
     "iptvSourceList": {
       "value": [ 
+
+         {
+          "name": "24live·流畅",
+          "url": "https://api.metr.cc/https://raw.githubusercontent.com/Marilyn2022/iptv-api/refs/heads/master/output/result.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+        
          {
           "name": "肥羊TV",
           "url": "http://127.0.0.1:35455/tv.m3u?url=http://127.0.0.1:35455",
