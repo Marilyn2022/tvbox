@@ -2,7 +2,7 @@
 "spider":"./jar/custom_spider.jar;md5;fd389e3446f23e76f9112a2097d81884",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[
-        {"name":"24live","type":0,"url":"https://api.metr.cc/https://raw.githubusercontent.com/Marilyn2022/iptv-api/refs/heads/master/output/user_result.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
+        {"name":"24live","type":0,"url":"https://urlzf.zone.id/iptv-api/output/user_result.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
        {"name":"小雅·ipv6","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u","playerType":2},
        {"name":"咪咕直播·流畅","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u","playerType":2},
         {"name":"alive","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
