@@ -1,5 +1,5 @@
 {
-  "version": "V12.0",
+  "version": "V13.0",
   "syncAt": 1735473496607,
   "syncFrom": "神器每日推送的设备",
   "description": null,
@@ -18,7 +18,7 @@
 
  {
           "name": "24live·流畅",
-          "url": "https://api.metr.cc/https://raw.githubusercontent.com/Marilyn2022/iptv-api/refs/heads/master/output/user_result.m3u",
+          "url": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
           "isLocal": false,
           "transformJs": null
         },
@@ -29,7 +29,7 @@
 
          {
           "name": "24live·流畅",
-          "url": "https://api.metr.cc/https://raw.githubusercontent.com/Marilyn2022/iptv-api/refs/heads/master/output/result.m3u",
+          "url": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
           "isLocal": false,
           "transformJs": null
         },
