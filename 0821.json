@@ -68,6 +68,7 @@
 {"key":"Aid","name":"🐇急救┃教学","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": { "type": "rect", "ratio":3.8}},
 {"key":"alllive","name":"🐎一直播┃直播","type":3,"api":"csp_Alllive","playerType":2,"searchable":0,"quickSearch":0,"changeable":0},      
 
+
 {"key":"drpy_js_我的哔哩","name":"🦉┃我的哔哩[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/我的哔哩.js"},
 {"key":"drpy_js_哔哩直播","name":"🎳┃哔哩直播[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩直播.js"},
 {"key":"drpy_js_斗鱼直播","name":"🥏┃斗鱼[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.755}, "playerType": "2","searchable": 0,"quickSearch": 0,"changeable":0,"ext": "https://notabug.org/fantaiying/ext/raw/main/斗鱼直播.js"},
