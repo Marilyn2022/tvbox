@@ -7,18 +7,6 @@
        {"name":"咪咕直播·流畅","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/altn2025/iptv/refs/heads/main/iptv.m3u","playerType":2},
         {"name":"alive","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
        {"name":"小雅·gaoma","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u","playerType":2},
-   {
-      "name": "快直播(ok·python)",
-      "type": 3,
-      "api": "./kzb.py",
-      "ext": {}
-    },
-        {
-      "name": "快直播体育(ok·python)",
-      "type": 3,
-      "api": "./kzbty.py",
-      "ext": {}
-    },
 
 {
       "name": "快直播电视(python)",
@@ -34,21 +22,12 @@
     },
     
     {
-      "name": "iptv345(python)",
-      "type": 3,
-      "api": "http://urlzf.zone.id/tvjk/iptv345.py",
-      "ext": {}
-    },
-    
-    {
       "name": "yoo体育(python)",
       "type": 3,
       "api": "http://urlzf.zone.id/tvjk/yoozb.py",
       "ext": {}
     },
 
-        
- 
        {
             "name": "itv（本地）",
             "type": 0,
