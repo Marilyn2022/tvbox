@@ -19,6 +19,35 @@
       "api": "./kzbty.py",
       "ext": {}
     },
+
+{
+      "name": "快直播电视(python)",
+      "type": 3,
+      "api": "http://urlzf.zone.id/tvjk/kzb.py",
+      "ext": {}
+    },
+    {
+      "name": "快直播体育(python)",
+      "type": 3,
+      "api": "http://urlzf.zone.id/tvjk/kzbty.py",
+      "ext": {}
+    },
+    
+    {
+      "name": "iptv345(python)",
+      "type": 3,
+      "api": "http://urlzf.zone.id/tvjk/iptv345.py",
+      "ext": {}
+    },
+    
+    {
+      "name": "yoo体育(python)",
+      "type": 3,
+      "api": "http://urlzf.zone.id/tvjk/yoozb.py",
+      "ext": {}
+    },
+
+        
  
        {
             "name": "itv（本地）",
