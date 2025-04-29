@@ -28,6 +28,14 @@
       "ext": {}
     },
 
+    {
+      "name": "360pai",
+      "type": 3,
+      "api": "http://urlzf.zone.id/tvjk/360pai.py",
+      "ext": {}
+    },
+
+
        {
             "name": "itv（本地）",
             "type": 0,
