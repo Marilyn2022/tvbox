@@ -1,7 +1,7 @@
 {
   "version": "V14.0",
   "syncAt": 1747235410000,
-  "syncFrom": "神器每日推送的设备",
+  "syncFrom": "神器设备",
   "description": null,
   "configs": {
     "appBootLaunch": true,
