@@ -50,11 +50,6 @@
                 "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
             }
         },
-        {"name":"IPTV·gaoma","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/IPTV-V4.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-          {"name":"CCTV·gaoma","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/peterHchina/iptv/refs/heads/main/CCTV-V4.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-       {"name":"iptv","type":0,"url":"https://live.kilvn.com/iptv.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-       {"name":"iptv_list","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/mlzlzj/iptv/refs/heads/main/iptv_list.txt","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-       { "name": "直播live","type": 0,"url": "https://gcore.jsdelivr.net/gh/yuanzl77/IPTV@latest/live.m3u","epg": "https://epg.v1.mk/json?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
       {"name":"16万•MV","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"}
 ],
 "wallpaper": "https://bing.img.run/uhd.php",
