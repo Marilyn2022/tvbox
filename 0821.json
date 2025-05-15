@@ -35,6 +35,13 @@
       "ext": {}
     },
 
+{
+      "name": "515001",
+      "type": 3,
+      "api": "http://urlzf.zone.id/tvjk/515001.py",
+      "ext": {}
+    }
+
 
        {
             "name": "itv（本地）",
