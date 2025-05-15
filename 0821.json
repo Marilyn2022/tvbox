@@ -3,7 +3,6 @@
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[
         {"name":"24live","type":0,"url":"https://urlzf.zone.id/iptv-api/output/user_result.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-       {"name":"小雅·ipv6","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u","playerType":2},
 {
       "name": "快直播电视(python)",
       "type": 3,
