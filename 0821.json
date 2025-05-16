@@ -51,10 +51,8 @@
  {"key":"豆瓣","name":"💯豆瓣｜评分｜推荐","type":3,"api":"csp_Douban","ext":"./lib/豆瓣.json", "jar":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5"},
  {"key":"荐片","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://175.178.251.183:6689/lib/jianpian.json","jar":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5"},   
 {"key":"drpy_js_荐片","name":"🏆荐片[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/荐片.js", "searchable": 1,"quickSearch": 1,"changeable": 1},
-{"key":"热播","name":"🍬热播｜有广｜蓝光","type":3,"api":"csp_AppRB","playerType":1,"searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5"},
 {"key":"苹果","name":"🥠苹果｜影视｜蓝光","type":3,"api":"csp_Xpg","searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5"},
-{"key":"金牌","name":"🧿金牌｜影视｜蓝光","type":3,"api":"csp_Jpys","searchable":1,"changeable":1,"jar":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5"},
-       
+
 {"key":"drpy_js_360影视","name":"🥇官源┃360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
 {"key":"drpy_js_奇珍异兽","name":"🦚官源┃爱奇艺[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
 {"key":"drpy_js_百忙无果","name":"🥈官源┃芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
@@ -70,8 +68,7 @@
 
 {"key":"影图资源","name":"🐅影图资源","type":1,"api":"https://api.yzzy-api.com/inc/apijson.php?ac=list","searchable":"1","quickSearch":"1","filterable":"0"},
 {"key":"优质资源","name":"🐶优质资源","type":1,"api":"https://api.wujinapi.me/api.php/provide/vod/?ac=list","searchable":"1","quickSearch":"1","filterable":"0"},
-{"key":"黑木资源","name":"🦊黑木资源","type":1,"api":"https://json02.heimuer.xyz/api.php/provide/vod/?ac=list","searchable":"1","quickSearch":"1","filterable":"0"},
-        
+
 {"key":"lf_js_lf_live","name":"🥏电视┃直播","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
 {"key":"看球","name":"🥇88┃看球_SP","type":3,"api":"csp_Kanqiu","searchable":1,"changeable":0,"style":{"type":"list"}},
 {"key":"88js","name":"🥇88┃看球[js]","type":3,"api":"./lib/drpy.min.js","ext":"./js/88看球.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
