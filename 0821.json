@@ -3,11 +3,11 @@
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[
         {"name":"24live","type":0,"url":"https://urlzf.zone.id/iptv-api/output/user_result.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
-{
-      "name": "快直播电视(python)",
-      "type": 3,
-      "api": "http://urlzf.zone.id/tvjk/kzb.py",
-      "ext": {}
+   {
+      "name": "极直播电视(php)",
+      "url": "http://php.cqshushu.ggff.net/jzb.php",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "快直播体育(python)",
@@ -35,6 +35,13 @@
       "type": 3,
       "api": "http://urlzf.zone.id/tvjk/515001.py",
       "ext": {}
+    },
+
+ {
+      "name": "88KQ",
+      "url": "http://php.cqshushu.ggff.net/kqt.php",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
 
       {"name":"16万•MV","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"}
