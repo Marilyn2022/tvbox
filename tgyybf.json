@@ -1,5 +1,5 @@
 {
-  "version": "V15.0",
+  "version": "V16.0",
   "syncAt": 1747235410000,
   "syncFrom": "神器设备",
   "description": null,
@@ -32,7 +32,13 @@
           "url": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
           "isLocal": false,
           "transformJs": null
-        }
+        },
+        {
+      "name": "515001看球(php)",
+      "url": "http://php.cqshushu.ggff.net/515001.php?p=webview&公众号【医工学习日志】",
+      "isLocal": false,
+      "transformJs": null
+    }
       ]
     },
     "iptvChannelGroupHiddenList": [],
