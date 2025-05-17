@@ -32,15 +32,7 @@
           "url": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
           "isLocal": false,
           "transformJs": null
-        },
-        {
-      "name": "515001看球(php)",
-      "url": "http://tv.cqshushu.ggff.net:2086/515001.php?p=webview&公众号【医工学习日志】",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "isLocal": false,
-      "transformJs": null
-    }
+        }
       ]
     },
     "iptvChannelGroupHiddenList": [],
