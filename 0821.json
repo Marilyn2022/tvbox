@@ -50,8 +50,8 @@
 "sites":[
  {"key":"豆瓣","name":"💯豆瓣｜评分｜推荐","type":3,"api":"csp_Douban","ext":"./lib/豆瓣.json"},
  {"key":"荐片","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1},   
+{"key":"荐片","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1, "ext":"./json/jianpian.json$$$1", "timeout":60},
 {"key":"drpy_js_荐片","name":"🏆荐片[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/荐片.js", "searchable": 1,"quickSearch": 1,"changeable": 1},
-{"key":"苹果","name":"🥠苹果｜影视｜蓝光","type":3,"api":"csp_Xpg","searchable":1,"quickSearch":1,"changeable":1, "jar":"./jar/spider.jar;md5;f4a2d92cc932b9afc7367f9d72d3b6e5"},
 
 {"key":"drpy_js_360影视","name":"🥇官源┃360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
 {"key":"drpy_js_奇珍异兽","name":"🦚官源┃爱奇艺[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
@@ -111,10 +111,7 @@
 "rules":[
 {"name":"kk","hosts":["kuaikan"],"regex":["5","20.123","20.167","#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-KEY:METHOD((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"]},
 {"name":"yqk","hosts":["yqk"],"regex":["18.4","15.1666","#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-OUT((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-IN"]},
-{"name":"sn","hosts":["suonizy"],"regex":["#EXTINF.*?\\s+.*?original.*?\\.ts\\s+","15.1666","15.2666","16.3333","15.266667"]},
-{"name":"bf","hosts":["bfzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"xx","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
-{"name":"lz","hosts":["vip.lz","hd.lz","v.cdnlz","yzzy1.play"],"regex":["18.5333","19.52","18.6666"]},
 {"name":"ff","hosts":["vip.ffzy","hd.ffzy","ffzy"],"regex":["25.0666","25.08","20.52","25.1","25.1999"]},
 {"name":"hs","hosts":["huoshan.com"],"regex":["item_id="]},
 {"name":"dy","hosts":["douyin.com"],"regex":["is_play_url="]},
