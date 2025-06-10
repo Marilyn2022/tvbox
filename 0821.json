@@ -48,7 +48,15 @@
 ],
 "wallpaper": "https://bing.img.run/uhd.php",
 "sites":[
- {"key":"豆瓣","name":"💯豆瓣｜评分｜推荐","type":3,"api":"csp_Douban","ext":"./json/douban.json"},
+ {
+      "key": "豆瓣",
+      "name": "💯豆瓣｜评分｜推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1,
+      "ext": "./json/douban.json"
+    },
  {"key":"荐片","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1},   
 {"key":"荐片","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1, "ext":"./json/jianpian.json$$$1", "timeout":60},
 {"key":"drpy_js_荐片","name":"🏆荐片[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/荐片.js", "searchable": 1,"quickSearch": 1,"changeable": 1},
