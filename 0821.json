@@ -1,5 +1,5 @@
 {
-"spider":"./jar/custom_spider.jar;md5;b3f144d34651b79384fc9e1ca4e3e310",
+"spider":"./jar/custom_spider.jar;md5;77d675fab02d67f80e31fab7723eb15d",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[
         {"name":"24live","type":0,"url":"https://urlzf.zone.id/iptv-api/output/user_result.m3u","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
