@@ -50,14 +50,6 @@
 "sites":[
  {"key":"荐片","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1},   
 {"key":"drpy_js_荐片","name":"🏆荐片[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/荐片.js", "searchable": 1,"quickSearch": 1,"changeable": 1},
-{ "key": "豆瓣","name": "🤓豆瓣","type": 3,"api": "csp_DoubanGuard","searchable": 0, "changeable": 1,"jar": "./jar/ok.png;md5;DB4F3F26A27C9C795C2E2638B6165643},
-{"key": "校长","name": "💮小章┃4K","type": 3, "api": "csp_XiaoZhangGuard","searchable": 1,"filterable": 1,"changeable":1,"timeout":30,"jar": "./jar/ok.png;md5;DB4F3F26A27C9C795C2E2638B6165643},
-{"key": "小苹果","name": "🍎苹果┃直连","type": 3,"api": "csp_XpgGuard","searchable": 1,"quickSearch": 1, "filterable": 1,"timeout": 10,"jar": "./jar/ok.png;md5;DB4F3F26A27C9C795C2E2638B6165643},
-{"key": "立播版","name": "🐰立播┃4K","type": 3,"api": "csp_LibvioGuard","searchable": 1,"filterable": 1,"changeable": 1,"timeout": 30,"jar": "./jar/ok.png;md5;DB4F3F26A27C9C795C2E2638B6165643},
-{"key": "瓜子","name": "🍉瓜子┃App", "type": 3,"api": "csp_GuaziGuard","searchable": 1, "quickSearch": 1,"filterable": 1,"timeout": 10,"jar": "./jar/ok.png;md5;DB4F3F26A27C9C795C2E2638B6165643},
-{"key": "光影","name": "🎥光影┃4K", "type": 3, "api": "csp_GuanyingGuard","searchable": 1,"filterable": 1,"changeable": 1,"timeout": 30,"jar": "./jar/ok.png;md5;DB4F3F26A27C9C795C2E2638B6165643},
-{ "key": "蜡笔","name": "👠蜡笔┃4K","type": 3,"api": "csp_LabiGuard","quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 25,"jar": "./jar/ok.png;md5;DB4F3F26A27C9C795C2E2638B6165643},
-{"key": "双星","name": "🤩双星┃4K","type": 3,"api": "csp_Star2Guard","searchable": 1, "filterable": 1,"changeable": 0,"style": {"type": "list"},"timeout": 25,"jar": "./jar/ok.png;md5;DB4F3F26A27C9C795C2E2638B6165643},
 
 {"key":"drpy_js_360影视","name":"🥇官源┃360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
 {"key":"drpy_js_奇珍异兽","name":"🦚官源┃爱奇艺[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
