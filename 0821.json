@@ -49,7 +49,6 @@
 "wallpaper": "https://bing.img.run/uhd.php",
 "sites":[
  {"key":"荐片","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1},   
-{"key":"荐片","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1, "ext":"./json/jianpian.json$$$1", "timeout":60},
 {"key":"drpy_js_荐片","name":"🏆荐片[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/荐片.js", "searchable": 1,"quickSearch": 1,"changeable": 1},
 
 {"key":"drpy_js_360影视","name":"🥇官源┃360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
@@ -58,7 +57,7 @@
 {"key":"drpy_js_腾云驾雾","name":"🥉官源┃腾讯[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/腾云驾雾.js"},
 {"key":"drpy_js_菜狗","name":"🦜官源┃搜狗[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/菜狗.js"},
 {"key":"drpy_js_优酷","name":"🍇官源┃优酷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
-{"key":"drpy_js_酷云77","name":"🦜影视 | 酷云77[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/酷云77.js"},
+{"key":"bb","name":"🍇豆瓣┃搜索[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
         
 {"key":"量子","name":"🦚量子┃采集","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","台湾剧","香港剧","欧美剧","记录片","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫","体育","足球","篮球","网球","斯诺克"]},
 {"key":"暴風","name":"🦔暴風┃采集","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
@@ -81,17 +80,10 @@
 {"key":"drpy_js_博看听书","name":"🎁听书┃博看听书[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/博看听书.js"},
 {"key":"有声小说js","name":"🎏听书┃有声小说[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/有声小说吧.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"drpy_js_评书随身听","name":"🎄评书┃评书随身听[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/评书随身听.js"},
-{"key":"drpy_js_相声随身听","name":"🎭相声┃相声随身听[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/相声随身听.js"},
 {"key":"drpy_js_广播迷FM","name":"🏐广播┃广播迷FM[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/广播迷FM.js"},
 {"key":"drpy_js_蜻蜓FM","name":"🍆广播┃蜻蜓FM[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/蜻蜓FM.js"},
 {"key":"drpy_js_DJ音乐","name":"🍌音频┃DJ音乐[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/DJ音乐.js"},
-{"key":"drpy_js_酷奇MV","name":"🥗MV┃酷奇[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/酷奇MV.js"},
-
-{"key": "push_agent","name": "🍡手机┃推送","type": 3,"api": "csp_Push","searchable": 0,"changeable": 0,"timeout": 60}, 
-{"key":"csp_AList","name":"🍋AList┃网盘","type":"3","api":"csp_AList","searchable":"0","quickSearch":"0","filterable":"1","changeable":0,"ext":"./json/alist.json"},
-{"key":"bb","name":"🦢导航www.203511.xyz","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
-{"key": "豆瓣","name": "💯豆瓣｜评分｜推荐", "type": 3,"api": "csp_Douban","searchable": 0,"changeable": 1,"ext": "./json/douban.json"},
-{"key":"cc","name":"🐹请勿相信视频中任何广告","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"}
+{"key":"cc","name":"🦢导航www.203511.xyz","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"}
 ],
 "parses":[
 {"name":"Json聚合","type":3,"url":"Demo"},
