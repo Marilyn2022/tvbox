@@ -49,7 +49,6 @@
 ],
 "wallpaper": "https://bing.img.run/uhd.php",
 "sites":[ 
-{"key":"荐片","name":"🐭荐片┃P2P","type":3,"api":"csp_JPJGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
 {"key":"drpy_js_360影视","name":"🥇官源┃360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
 {"key":"drpy_js_奇珍异兽","name":"🦚官源┃爱奇艺[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
 {"key":"drpy_js_百忙无果","name":"🥈官源┃芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
