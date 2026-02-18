@@ -231,7 +231,6 @@
 {"name":"量子资源","url":"https://cj.lziapi.com/api.php"},
 {"name":"光速资源","url":"https://api.guangsuapi.com/api.php"},
 {"name":"七七看片","url":"https://www.5277kp.com//api.php/"},	
-{"name":"华为吧资源","url":"https://cjhwba.com/api.php/"}],
 
 "zhujiexi":[
 {"name":"解析1","url":"http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ua":"User-Agent$okhttp/3.12.0#referer$123"},
@@ -616,4 +615,5 @@
 "播放剧集链接后缀": "空"}
 ]
 }
+
 
