@@ -47,7 +47,7 @@
 
       {"name":"16万•MV","type":0,"url":"https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"}
 ],
-"wallpaper": "https://wallpaper-1tg.pages.dev/",
+"wallpaper": "https://bing.img.run/uhd.php",
 "sites":[
  {"key":"荐片","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1},   
 {"key":"drpy_js_360影视","name":"🥇官源┃360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
