@@ -1,6 +1,6 @@
 {
 
-"spider":"./jar/custom_spider.jar;md5;dbc93cb9a14cff520dc4f26e6eddb68c",
+"spider":"./jar/custom_spider.jar;md5;d888bd0bc144db7fc3dd68c7ab3a70d9",
 
 "logo":"https://cdn.pixabay.com/photo/2020/08/09/11/43/woman-5475306_1280.jpg",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.m3u"},
